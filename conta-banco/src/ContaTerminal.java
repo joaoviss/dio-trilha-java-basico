@@ -1,4 +1,7 @@
-// Essa classe representa uma conta bancária
+/**
+ * Essa classe representa uma conta bancária
+ * @author João Vitor dos Santos Silva
+ */
 public class ContaTerminal {
 
     private int contaNumero;
@@ -19,7 +22,8 @@ public class ContaTerminal {
 
     /** 
      * Esse é o método toString da classe object reescrito especialmente para essa
-     * Formata uma string que representa o objeto.
+     * formatar uma string que representa o objeto.
+     * @return Um resumo sobre a doação da conta
      */
     public String toString() {
         return """
